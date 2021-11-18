@@ -1,0 +1,23 @@
+import { Link } from "react-router-dom";
+import "./style.css";
+
+const Home = () => {
+    return (
+        <div className="home">
+            <div className="person">
+                <img src={`${process.env.PUBLIC_URL}/profile.png`} alt="Tammy Gagliano"/>
+            </div>
+            <div className="title">
+                <h1>
+                    <h3>Tammy Gagliano</h3>
+                    <h3>Full Stack Web Developer</h3>
+                </h1>
+                <Link to="about">
+                    <button>Learn More</button>
+                </Link>
+            </div>
+        </div>
+    );
+};
+
+export default Home;
