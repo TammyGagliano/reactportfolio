@@ -11,10 +11,10 @@ const NavBar = () => {
                 <div className="list-wrapper">
                     <ul>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="./components/About">About</Link></li>
-                        <li><Link to="./components/Portfolio">Portfolio</Link></li>
-                        <li><Link to="./components/Skills">Skills</Link></li>
-                        <li><Link to="./components/Contact">Contact</Link></li>
+                        <li><Link to="./About">About</Link></li>
+                        <li><Link to="./Portfolio">Portfolio</Link></li>
+                        <li><Link to="./Skills">Skills</Link></li>
+                        <li><Link to="./Contact">Contact</Link></li>
                     </ul>
                 </div>
             </div>
