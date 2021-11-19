@@ -4,9 +4,7 @@ const About = () => {
   return (
     <div className="contact">
       <h1>Contact me!</h1>
-      <iframe
-        src="https://goo.gl/maps/eXTtPsDQ5jXFR2bk8"></iframe>
-
+     
       <h2>Phone</h2>
       <p>555-555-5555</p>
 
