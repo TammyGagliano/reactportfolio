@@ -1,3 +1,6 @@
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import "./style.css";
 
 const Skills = () => {
@@ -5,8 +8,7 @@ const Skills = () => {
     <div className="Portfolio">
       <h2>Programming Languages &amp; Tools</h2>
       <ul>
-        <li>
-          <i class="fab fa-html5"></i>
+        <li>HTML5
         </li>
         <li>
           <i class="fab fa-css3-alt"></i>
@@ -18,7 +20,7 @@ const Skills = () => {
           <i class="fab fa-wordpress"></i>
         </li>
         <li>
-          <i class="fab fa-github"></i>
+        <FontAwesomeIcon icon={["fab", "github"]} />
         </li>
         <li>
           <i class="fab fa-adobe"></i>
