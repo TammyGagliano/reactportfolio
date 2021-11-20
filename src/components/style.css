@@ -57,6 +57,13 @@ h1, h2, h3, h4 {
     margin: 0 30px;
 }
 
+/* HEADER CSS */
+
+.headerImg {
+    align-items: center;
+    margin: 0;
+}
+
 /* ABOUT PAGE CSS */
 .about {
     flex-grow: 1;
