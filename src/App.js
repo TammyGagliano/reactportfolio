@@ -5,7 +5,6 @@ import NavBar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import "./App.css";
@@ -15,7 +14,6 @@ function App() {
     // Router component
     <Router>
       <div className="app">
-        <Header />
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />

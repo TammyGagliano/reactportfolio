@@ -1,9 +1,12 @@
 import "./style.css";
+import { Col, Row } from "react-bootstrap";
 
 const About = () => {
   return (
     <div className="about">
-      <h1>About Me</h1>
+      <div className="container-fluid">
+  <Row>
+    <Col><h1>About Me</h1>
       <p>
         Tammy Gagliano has about nine years’ experience in the finance industry
         mixed with about ten years of IT experience. She worked as a loan
@@ -20,7 +23,10 @@ const About = () => {
         joined the Campaign Execution team in 2019 and has been responsible for
         end to end development and delivery of Digital Marketing Campaigns and
         Customer Journeys.
-      </p>
+      </p></Col>
+  </Row>
+</div>
+      
     </div>
   );
 };

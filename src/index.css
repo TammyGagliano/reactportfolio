@@ -5,9 +5,10 @@
 
 body {
   margin: 0;
+  background-color: #56494c;
   font-family: 'Times New Roman', sans-serif;  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #56494c;
+ 
 }
 
 /* hide scrollbar */
